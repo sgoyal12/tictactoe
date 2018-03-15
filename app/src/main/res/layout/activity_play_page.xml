@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shubham.tictactoe.PlayPage"
+    android:orientation="vertical"
+    android:background="#FFFF00"
+    android:id="@+id/linear">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#013220"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        android:text="Tic Tac Toe"
+        android:id="@+id/tv"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Game"
+        android:fontFamily="cursive"
+        android:textSize="50dp"
+        android:textColor="#FFFFFF"
+        android:background="#006400"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:id="@+id/pg"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#006400"
+        android:fontFamily="cursive"
+        android:text="Exit Game"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:id="@+id/exit"/>
+
+
+</LinearLayout>
